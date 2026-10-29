@@ -18,3 +18,28 @@ body {
     height: 150px;
     background: white;
 }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  z-index: 1;
+}
+
+.overlay__button {
+  padding: 16px 32px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font: inherit;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.overlay__button:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 6px;
+}
