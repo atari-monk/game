@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      atari-monk-engine:
+        specifier: file:../engine/atari-monk-engine-0.0.1.tgz
+        version: file:../engine/atari-monk-engine-0.0.1.tgz
     devDependencies:
       typescript:
         specifier: ~6.0.2
@@ -118,6 +122,10 @@ packages:
 
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+
+  atari-monk-engine@file:../engine/atari-monk-engine-0.0.1.tgz:
+    resolution: {integrity: sha512-M578jQZJiZ9w6CPp+6dGXqLzS0acy3c/q2LIAJbkNiFmfP6rnHg6uhaas/RFMlgfY/S0gJE35VCXJI/VAHgVZg==, tarball: file:../engine/atari-monk-engine-0.0.1.tgz}
+    version: 0.0.1
 
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
@@ -338,6 +346,8 @@ snapshots:
     optional: true
 
   '@rolldown/pluginutils@1.0.1': {}
+
+  atari-monk-engine@file:../engine/atari-monk-engine-0.0.1.tgz: {}
 
   detect-libc@2.1.2: {}
 

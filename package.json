@@ -12,5 +12,8 @@
     "typescript": "~6.0.2",
     "vite": "^8.0.12"
   },
-  "description": "Game project template to start games from"
+  "description": "Game project template to start games from",
+  "dependencies": {
+    "atari-monk-engine": "file:../engine/atari-monk-engine-0.0.1.tgz"
+  }
 }
