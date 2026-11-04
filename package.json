@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "pnpm build && mkdir -p /home/atari-monk/atari-monk/project/games/game && cp -a dist/. /home/atari-monk/atari-monk/project/games/game/"
   },
   "devDependencies": {
     "typescript": "~6.0.2",
